@@ -41,11 +41,10 @@ This task demonstrates symmetric encryption and decryption using the Fernet impl
 
 #### Steps:
 1. Set up a virtual environment by following the installation instructions.
-2. Research symmetric encryption.
-3. Create a file named `encrypt.py`.
-4. Define a function using the cryptography.fernet module that encrypts text with a provided key.
-5. Create another function that decrypts the text using the same key.
-6. Deactivate your virtual environment once the task is completed, and remember to delete the virtual environment folder.
+2. Create a file named `encrypt.py`.
+3. Define a function using the cryptography.fernet module that encrypts text with a provided key.
+4. Create another function that decrypts the text using the same key.
+5. Deactivate your virtual environment once the task is completed, and remember to delete the virtual environment folder.
 
 ### Why it's important:
 Symmetric encryption is fundamental to data security and privacy. It ensures that both the sender and the receiver can protect and securely communicate sensitive data without exposure to third parties.
@@ -85,17 +84,10 @@ To run these scripts locally, follow these steps:
 Once the dependencies are installed, you can use the code for the tasks.
 
 ### Running Task 1:
-Navigate to the directory containing the code for Task 1:
-   cd task1
-
 Run the password hashing script:
    python password_hash.py
 
-
 ### Running Task 2:
-Navigate to the directory containing the code for Task 2:
-   cd task2
-
 Run the encryption script:
    python encrypt.py
 
